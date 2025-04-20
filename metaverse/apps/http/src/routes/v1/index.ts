@@ -1,4 +1,7 @@
 import { Router } from "express";
+import { adminRouter } from "./admin";
+import { spaceRouter } from "./space";
+import { userRouter } from "./user";
 
 export const router = Router();
 
